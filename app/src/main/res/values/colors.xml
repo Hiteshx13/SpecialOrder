@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTrans">#C3000000</color>
+    <color name="colorWhiteVeryLight">#EEEEEE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlackLight">#262626</color>
+    <color name="colorGray">#7E7E7E</color>
+    <color name="colorWhiteLight">#E2E2E2</color>
+    <color name="colorGrayLight">#BEBEBE</color>
+    <color name="colorGrayLightTrans">#68606060</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGrayVeryLight">#DFE0E0</color>
+    <color name="colorDarkWhite">#F5F5F5</color>
+</resources>
