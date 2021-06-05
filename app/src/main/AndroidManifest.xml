@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemeNoTitle">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
         <activity
@@ -22,6 +19,40 @@
 
         <activity
             android:name=".SpecialOrdersActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InvoiceDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderDetails2ctivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyOrders2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyOrdersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SPDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsConsitionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RatingsActivity"
             android:screenOrientation="portrait" />
 
     </application>

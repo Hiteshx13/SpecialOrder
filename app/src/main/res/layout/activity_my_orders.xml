@@ -17,11 +17,34 @@
             android:orientation="vertical"
             android:paddingStart="@dimen/_10sdp"
             android:paddingEnd="@dimen/_10sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avenir_book"
+                android:orientation="horizontal">
 
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:src="@drawable/ic_nav_menu" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/StyleTextBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/avenir_book"
+                    android:gravity="center"
+                    android:text="My orders"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_14sdp" />
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_20sdp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:paddingStart="@dimen/_10sdp"
@@ -59,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/colorBlack" />
+                android:background="@color/colorGray" />
 
 
             <LinearLayout
@@ -116,7 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_20sdp"
-                android:background="@color/colorBlack" />
+                android:background="@color/colorGray" />
         </LinearLayout>
 
         <LinearLayout

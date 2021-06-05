@@ -29,7 +29,7 @@
                     android:layout_width="@dimen/_40sdp"
                     android:layout_height="@dimen/_40sdp"
                     android:padding="@dimen/_12sdp"
-                    android:src="@drawable/ic_back" />
+                    android:src="@drawable/ic_nav_menu" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/StyleTextBlack"
@@ -38,7 +38,7 @@
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/avenir_book"
                     android:gravity="center"
-                    android:text="SP Details"
+                    android:text="My orders"
                     android:textColor="@color/colorBlack"
                     android:textSize="@dimen/_14sdp" />
             </RelativeLayout>
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/colorBlack" />
+                android:background="@color/colorGray" />
 
 
             <LinearLayout
@@ -140,31 +140,33 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvCancelOrder"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/bg_black_rounded_less"
                             android:paddingStart="@dimen/_10sdp"
-                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_8sdp"
                             android:paddingEnd="@dimen/_10sdp"
-                            android:paddingBottom="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_8sdp"
                             android:text="cancel order"
                             android:textColor="@color/colorWhite"
-                            android:textSize="@dimen/_5ssp"
+                            android:textSize="@dimen/_8ssp"
                             app:fontFamily="@font/avenir_book"
                             app:textAllCaps="true" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
+                            android:id="@+id/tvTrackOrder"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_10sdp"
                             android:background="@drawable/bg_black_border_less"
                             android:paddingStart="@dimen/_10sdp"
-                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_8sdp"
                             android:paddingEnd="@dimen/_10sdp"
-                            android:paddingBottom="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_8sdp"
                             android:text="track order"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_5ssp"
+                            android:textSize="@dimen/_8ssp"
                             app:fontFamily="@font/avenir_book"
                             app:textAllCaps="true" />
 
@@ -177,9 +179,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_20sdp"
-                android:background="@color/colorBlack" />
+                android:background="@color/colorGray" />
 
             <LinearLayout
+                android:id="@+id/llOrder2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20sdp"
@@ -231,31 +234,33 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvRepeatOrder"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/bg_black_rounded_less"
                             android:paddingStart="@dimen/_10sdp"
-                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_8sdp"
                             android:paddingEnd="@dimen/_10sdp"
-                            android:paddingBottom="@dimen/_5sdp"
-                            android:text="cancel order"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="repeat order"
                             android:textColor="@color/colorWhite"
-                            android:textSize="@dimen/_5ssp"
+                            android:textSize="@dimen/_8ssp"
                             app:fontFamily="@font/avenir_book"
                             app:textAllCaps="true" />
 
                         <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvGiveRatings"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_10sdp"
                             android:background="@drawable/bg_black_border_less"
                             android:paddingStart="@dimen/_10sdp"
-                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_8sdp"
                             android:paddingEnd="@dimen/_10sdp"
-                            android:paddingBottom="@dimen/_5sdp"
-                            android:text="track order"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="give ratings"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_5ssp"
+                            android:textSize="@dimen/_8ssp"
                             app:fontFamily="@font/avenir_book"
                             app:textAllCaps="true" />
 

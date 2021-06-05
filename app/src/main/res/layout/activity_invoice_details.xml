@@ -54,7 +54,7 @@
                     android:gravity="center"
                     android:text="Order no: #452458"
                     android:textColor="@color/colorGray"
-                    android:textSize="@dimen/_14ssp"
+                    android:textSize="@dimen/_12ssp"
                     app:textAllCaps="true" />
 
                 <androidx.appcompat.widget.AppCompatTextView
@@ -65,7 +65,7 @@
                     android:gravity="center"
                     android:text="Customer Name: Hasher Al  Maktoum"
                     android:textColor="@color/colorGray"
-                    android:textSize="@dimen/_14ssp" />
+                    android:textSize="@dimen/_12ssp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                     android:gravity="center"
                     android:text="Invoice No     :54254785"
                     android:textColor="@color/colorGray"
-                    android:textSize="@dimen/_14ssp" />
+                    android:textSize="@dimen/_12ssp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                     android:gravity="center"
                     android:text="Date               :Dec 23, 2020 2.30PM"
                     android:textColor="@color/colorGray"
-                    android:textSize="@dimen/_14ssp" />
+                    android:textSize="@dimen/_12ssp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_1sdp"
-                        android:layout_marginTop="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
                         android:background="@color/colorGray" />
 
 
@@ -181,7 +181,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="Item cost"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
@@ -189,7 +189,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="1000 SAR  "
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
 
                     </LinearLayout>
@@ -208,7 +208,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="Quality board team to review"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
@@ -216,7 +216,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="0 SAR  "
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
 
                     </LinearLayout>
@@ -235,7 +235,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="Vat(15%)"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
@@ -243,7 +243,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="150 SAR  "
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
 
                     </LinearLayout>
@@ -262,7 +262,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="Delivery fee"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
@@ -272,7 +272,7 @@
 
                             android:text="100 SAR  "
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
 
                     </LinearLayout>
@@ -291,7 +291,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="Total Amount"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
 
                         <androidx.appcompat.widget.AppCompatTextView
                             android:layout_width="wrap_content"
@@ -299,7 +299,7 @@
                             android:fontFamily="@font/avenir_book"
                             android:text="12,50 SAR"
                             android:textColor="@color/colorBlack"
-                            android:textSize="@dimen/_14ssp" />
+                            android:textSize="@dimen/_12ssp" />
                     </LinearLayout>
 
                     <View
@@ -396,7 +396,7 @@
                                 android:text="Advance amount"
                                 android:textAllCaps="true"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_14ssp" />
+                                android:textSize="@dimen/_12ssp" />
 
                             <androidx.appcompat.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
@@ -404,7 +404,7 @@
                                 android:fontFamily="@font/avenir_book"
                                 android:text="1,000 SAR"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_14ssp" />
+                                android:textSize="@dimen/_12ssp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -422,7 +422,7 @@
                                 android:text="Completion amount"
                                 android:textAllCaps="true"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_14ssp" />
+                                android:textSize="@dimen/_10ssp" />
 
                             <androidx.appcompat.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
@@ -430,7 +430,7 @@
                                 android:fontFamily="@font/avenir_book"
                                 android:text="1,300 SAR"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_14ssp" />
+                                android:textSize="@dimen/_10ssp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -449,7 +449,7 @@
                                 android:text="Pay Advance Amount"
                                 android:textAllCaps="true"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_16ssp" />
+                                android:textSize="@dimen/_12ssp" />
 
                             <androidx.appcompat.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
@@ -457,11 +457,11 @@
                                 android:fontFamily="@font/avenir_roman"
                                 android:text="1,300 SAR"
                                 android:textColor="@color/colorWhite"
-                                android:textSize="@dimen/_16ssp" />
+                                android:textSize="@dimen/_12ssp" />
                         </LinearLayout>
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:id="@+id/btnCheckOut"
+                            android:id="@+id/btnAccept"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_40sdp"
@@ -481,6 +481,7 @@
                             android:layout_marginEnd="@dimen/_40sdp"
                             android:background="@drawable/bg_white_rounded"
                             android:text="Chat"
+                            android:visibility="gone"
                             android:textAllCaps="true"
                             android:textColor="@color/colorBlack" />
 
@@ -493,6 +494,7 @@
                             android:layout_marginEnd="@dimen/_40sdp"
                             android:background="@drawable/bg_white_rounded"
                             android:text="Pay now"
+                            android:visibility="gone"
                             android:textAllCaps="true"
                             android:textColor="@color/colorBlack" />
 

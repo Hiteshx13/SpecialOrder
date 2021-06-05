@@ -29,7 +29,7 @@ class TermsConsitionsActivity : BaseActivity() {
         }
 
         binding.btnAgree.setOnClickListener {
-            finish()
+            launchActivity(SPDetailsActivity.getIntent(mContext))
         }
     }
 }

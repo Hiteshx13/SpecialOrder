@@ -68,12 +68,14 @@
                 android:paddingStart="@dimen/_20sdp"
                 android:paddingTop="@dimen/_10sdp"
                 android:paddingBottom="@dimen/_10sdp"
-                android:text="Type something" />
+                android:hint="Type something" />
 
             <androidx.appcompat.widget.AppCompatImageView
+
+                android:padding="@dimen/_5sdp"
                 android:id="@+id/ivRight"
-                android:layout_width="@dimen/_25sdp"
-                android:layout_height="@dimen/_25sdp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
                 android:src="@drawable/ic_right" />
 
         </LinearLayout>

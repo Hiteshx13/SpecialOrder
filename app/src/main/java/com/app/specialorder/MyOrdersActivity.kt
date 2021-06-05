@@ -21,7 +21,7 @@ class MyOrdersActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_my_orders)
         binding.llOrder1.setOnClickListener {
-            launchActivity(ServiceProviderActivity.getIntent(mContext))
+            launchActivity(OrderDetailsActivity.getIntent(mContext))
         }
     }
 }
