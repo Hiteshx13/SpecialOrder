@@ -3,8 +3,10 @@ package com.app.specialorder
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.databinding.DataBindingUtil
 import com.app.specialorder.databinding.ActivityMyOrdersSecondBinding
+import com.example.tyr.utils.showCancelDetailsDialog
 
 class MyOrders2Activity : BaseActivity() {
 
@@ -21,7 +23,12 @@ class MyOrders2Activity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_my_orders_second)
         binding.tvCancelOrder.setOnClickListener {
-            finish()
+            showCancelDetailsDialog(mContext, object : ButtonClickListener {
+                override fun onClick(view: View) {
+                    finish()
+                }
+            }
+            )
         }
         binding.tvGiveRatings.setOnClickListener {
             launchActivity(RatingsActivity.getIntent(mContext))

@@ -63,24 +63,24 @@
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="@dimen/_30sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:src="@drawable/ic_rating_active"/>
+                    android:src="@drawable/ic_star_active"/>
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:src="@drawable/ic_rating_active"/> <androidx.appcompat.widget.AppCompatImageView
+                    android:src="@drawable/ic_star_active"/> <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:src="@drawable/ic_rating_active"/> <androidx.appcompat.widget.AppCompatImageView
+                    android:src="@drawable/ic_star_active"/> <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:src="@drawable/ic_rating"/> <androidx.appcompat.widget.AppCompatImageView
+                    android:src="@drawable/ic_star_inactive"/> <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:src="@drawable/ic_rating"/>
+                    android:src="@drawable/ic_star_inactive"/>
 
             </LinearLayout>
 

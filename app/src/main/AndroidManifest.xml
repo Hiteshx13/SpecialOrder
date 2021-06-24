@@ -54,6 +54,9 @@
         <activity
             android:name=".RatingsActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".HaveItNowActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

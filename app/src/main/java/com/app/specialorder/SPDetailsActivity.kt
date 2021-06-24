@@ -23,8 +23,10 @@ class SPDetailsActivity : BaseActivity() {
         binding.ivBack.setOnClickListener {
             finish()
         }
-        binding.llData.setOnClickListener {
-            launchActivity(MyOrdersActivity.getIntent(mContext))
+
+
+        binding.llProducts.setOnClickListener {
+            launchActivity(HaveItNowActivity.getIntent(mContext))
         }
     }
 }

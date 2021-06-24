@@ -98,38 +98,38 @@
                         android:textColor="@color/colorBlack"
                         android:maxLines="10"
                         android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/StyleTextBlack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:text="• Loren ipsum doller isat"
-                    android:textColor="@color/colorBlack"
-                    android:maxLines="10"
-                    android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/StyleTextBlack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:text="• Loren ipsum doller isat"
-                    android:textColor="@color/colorBlack"
-                    android:maxLines="10"
-                    android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/StyleTextBlack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:text="• Loren ipsum doller isat"
-                    android:textColor="@color/colorBlack"
-                    android:maxLines="10"
-                    android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
-                    style="@style/StyleTextBlack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:text="• Loren ipsum doller isat"
-                    android:textColor="@color/colorBlack"
-                    android:maxLines="10"
-                    android:textSize="@dimen/_12ssp" />
+                        style="@style/StyleTextBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="• Loren ipsum doller isat"
+                        android:textColor="@color/colorBlack"
+                        android:maxLines="10"
+                        android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/StyleTextBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="• Loren ipsum doller isat"
+                        android:textColor="@color/colorBlack"
+                        android:maxLines="10"
+                        android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/StyleTextBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="• Loren ipsum doller isat"
+                        android:textColor="@color/colorBlack"
+                        android:maxLines="10"
+                        android:textSize="@dimen/_12ssp" /> <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/StyleTextBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="• Loren ipsum doller isat"
+                        android:textColor="@color/colorBlack"
+                        android:maxLines="10"
+                        android:textSize="@dimen/_12ssp" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         style="@style/StyleTextBlack"
@@ -150,11 +150,6 @@
                         android:textAllCaps="true"
                         android:textSize="@dimen/_14ssp" />
 
-                    <LinearLayout
-                        android:id="@+id/llProducts"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -186,7 +181,7 @@
                                 android:textColor="@color/colorBlack"
                                 android:textSize="@dimen/_10ssp" />
 
-                        </LinearLayout>
+                                </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -208,7 +203,7 @@
                                 android:textColor="@color/colorBlack"
                                 android:textSize="@dimen/_10ssp" />
 
-                        </LinearLayout>
+                               </LinearLayout>
 
 
                     </LinearLayout>
@@ -242,12 +237,12 @@
                                 android:textColor="@color/colorBlack"
                                 android:textSize="@dimen/_10ssp" />
 
-                        </LinearLayout>
+                               </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
+                             android:layout_weight="1"
 
                             android:orientation="vertical">
 
@@ -264,10 +259,9 @@
                                 android:textColor="@color/colorBlack"
                                 android:textSize="@dimen/_10ssp" />
 
-                        </LinearLayout>
+                             </LinearLayout>
 
 
-                    </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
